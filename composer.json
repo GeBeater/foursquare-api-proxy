@@ -1,0 +1,22 @@
+{
+    "require": {
+        "silex/silex": "~1.1",
+        "thetwelvelabs/foursquare-service-provider": "dev-master@dev",
+        "haxx-se/curl": "1.0.0",
+        "yosymfony/config-serviceprovider": "1.0.*@dev"
+    },
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "haxx-se/curl",
+                "version": "1.0.0",
+                "dist": {
+                    "url": "http://curl.haxx.se/ca/cacert.pem",
+                    "type": "file"
+                }
+            }
+        }
+    ]
+}

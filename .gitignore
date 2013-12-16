@@ -1,0 +1,12 @@
+# Zend Studio
+.settings/
+.buildpath
+.project
+
+# foursquare credentials
+config/foursquare.yml
+
+# composer and corresponding third party libs
+composer.lock
+composer.phar
+vendor/
