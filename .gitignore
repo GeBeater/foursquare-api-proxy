@@ -3,6 +3,12 @@
 .buildpath
 .project
 
+# Jetbrains
+.idea/
+
+# Vagrant
+.vagrant/
+
 # foursquare credentials
 config/foursquare.yml
 
