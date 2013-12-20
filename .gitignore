@@ -16,3 +16,6 @@ config/foursquare.yml
 composer.lock
 composer.phar
 vendor/
+
+# Berkshelf
+Berksfile.lock
